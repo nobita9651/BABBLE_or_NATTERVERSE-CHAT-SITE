@@ -1,0 +1,49 @@
+/* SideDrawer.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5px 10px;
+  border-width: 3px;
+}
+.container .text-container {
+  flex: 1; /* Allow the text container to expand */
+}
+.side-drawer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  padding: 5px 10px;
+  border-width: 3px;
+}
+
+.side-drawer-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.side-drawer-button:hover {
+  background-color: #f0f0f0;
+}
+
+.side-drawer-title {
+  font-size: 3xl;
+  font-family: "Work sans";
+}
+
+.drawer-header {
+  border-bottom-width: 1px;
+}
+
+.drawer-body {
+  padding-bottom: 2;
+}
+
+.drawer-input {
+  margin-right: 2;
+}
